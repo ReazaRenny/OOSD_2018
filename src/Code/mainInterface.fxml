@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane prefHeight="750.0" prefWidth="1450.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Code.mainInterfaceController">
+   <children>
+      <SplitPane fx:id="spFull" dividerPositions="0.22985468956406868" prefHeight="750.0" prefWidth="1450.0">
+        <items>
+          <AnchorPane fx:id="spMenu" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <VBox fx:id="vbMenu" prefHeight="750.0" prefWidth="330.0">
+                     <children>
+                        <Pane fx:id="pAgentProfile" prefHeight="200.0" prefWidth="200.0" />
+                        <Pane fx:id="pCustomers" prefHeight="200.0" prefWidth="200.0" />
+                        <Pane fx:id="pTags" prefHeight="200.0" prefWidth="200.0" />
+                        <Pane fx:id="pPackages" prefHeight="200.0" prefWidth="200.0" />
+                        <Pane fx:id="pLogout" prefHeight="200.0" prefWidth="200.0" />
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+          <AnchorPane fx:id="spContent" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

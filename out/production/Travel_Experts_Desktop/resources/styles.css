@@ -1,0 +1,27 @@
+
+#apImage{
+
+    -fx-background-image: url("lama.jpeg");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+
+}
+
+.split-pane > .split-pane-divider {
+    -fx-padding: 0 0.01em 0 0.01em;
+}
+
+#pAgentProfile,#pCustomers,#pPackages,#pTags,#pLogout{
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+    -fx-border-color: black;
+}
+
+#btnSignIn{
+    -fx-background-color: DarkRed;
+    -fx-text-fill: white;
+
+}
+
+
+
