@@ -1,8 +1,15 @@
 package Code;
 
+import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import TravelExpertsClasses.Agents;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Text;
 
@@ -51,6 +58,10 @@ public class mainInterfaceController {
     private AnchorPane spContent;
 
     @FXML
+    private AnchorPane mainAP;
+
+
+    @FXML
     void initialize() {
 
         assert spMenu != null : "fx:id=\"spMenu\" was not injected: check your FXML file 'mainInterface.fxml'.";
@@ -68,4 +79,17 @@ public class mainInterfaceController {
 
     }
 
+
+    //remove the current anchor pane and replace it with the agent profile
+    public void loadAgentProfile(javafx.scene.input.MouseEvent mouseEvent) {
+
+        mainAP.getChildren().remove(spContent);
+
+        try {
+            mainAP.getChildren().add(FXMLLoader.load(getClass().getResource("AgentProfile.fxml")));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
 }

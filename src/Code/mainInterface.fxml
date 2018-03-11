@@ -4,13 +4,13 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="750.0" prefWidth="1450.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Code.mainInterfaceController">
+<AnchorPane fx:id="mainAP" prefHeight="750.0" prefWidth="1450.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Code.mainInterfaceController">
    <children>
       <AnchorPane fx:id="spMenu" prefHeight="750.0" prefWidth="256.0">
          <children>
             <VBox prefHeight="367.0" prefWidth="256.0">
                <children>
-                  <AnchorPane fx:id="pAgentProfile" prefHeight="200.0" prefWidth="200.0">
+                  <AnchorPane fx:id="pAgentProfile" onMouseClicked="#loadAgentProfile" prefHeight="200.0" prefWidth="200.0">
                      <children>
                         <Text fx:id="txtProfile" layoutX="33.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Agent Profile" />
                      </children>

@@ -57,6 +57,7 @@ public class LoginController {
 
     public static boolean agentExists = false;
 
+
     @FXML
     void initialize() {
 
@@ -90,16 +91,20 @@ public class LoginController {
 
         try {
 
+            //Encrypt the password and get the agent from the database using the entered username and password
             String Entered_pass = encryptPassword(password);
             System.out.println(Entered_pass);
             AgentDB db = new AgentDB();
             Agents agent = db.getAgent(username,Entered_pass);
 
+            //if an agent with the corresponding information is found in the database load the main dashboard and
+            //get the agent information in that dashboard class
             if(agentExists)
             {
                 System.out.println("success");
                 System.out.println(agent);
                 try{
+
                 FXMLLoader fxmlLoader = new FXMLLoader();
                 fxmlLoader.setLocation(this.getClass().getResource("../Code/mainInterface.fxml"));
                 /*
@@ -115,6 +120,11 @@ public class LoginController {
                 stage.setMaximized(true);
                 //stage.setFullScreen(true);
                 stage.show();
+
+                Globals a = new Globals();
+                a.agentInfo(agent);
+
+
             } catch (IOException e) {
                 Logger logger = Logger.getLogger(getClass().getName());
                 logger.log(Level.SEVERE, "Failed to create new Window.", e);
@@ -126,6 +136,7 @@ public class LoginController {
                 alert.setHeaderText("Invalid Credentials");
                 alert.setContentText("You must enter a valid username and password!");
                 alert.showAndWait();
+                agentExists = false;
                 return;
             }
         } catch (Exception e) {
@@ -139,7 +150,7 @@ public class LoginController {
         private static final byte[] keyValue =
                 new byte[]{'T', 'h', 'e', 'B', 'e', 's', 't', 'S', 'e', 'c', 'r', 'e', 't', 'K', 'e', 'y'};
 
-    private String encryptPassword(String p) throws Exception{
+    public String encryptPassword(String p) throws Exception{
 
         Key key = generateKey();
         Cipher c = Cipher.getInstance(ALGO);

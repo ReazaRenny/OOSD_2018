@@ -16,6 +16,24 @@ public class Agents {
     private String agtEmail;
     private String agtPosition;
     private Integer agencyId;
+    private String Username;
+    private String Password;
+
+    public Agents() {
+    }
+
+    public Agents(int agentId, String agtFirstName, String agtMiddleInitial, String agtLastName, String agtBusPhone, String agtEmail, String agtPosition, Integer agencyId, String username, String password) {
+        this.agentId = agentId;
+        this.agtFirstName = agtFirstName;
+        this.agtMiddleInitial = agtMiddleInitial;
+        this.agtLastName = agtLastName;
+        this.agtBusPhone = agtBusPhone;
+        this.agtEmail = agtEmail;
+        this.agtPosition = agtPosition;
+        this.agencyId = agencyId;
+        this.Username = username;
+        this.Password = password;
+    }
 
     @Id
     @Column(name = "AgentId")
@@ -97,6 +115,23 @@ public class Agents {
         this.agencyId = agencyId;
     }
 
+    @Basic
+    @Column(name = "AgencyId")
+    public String getUsername() {
+        return Username;
+    }
+
+    public void setUsername(String username) {
+        this.Username = username;
+    }
+
+    public String getPassword() {
+        return Password;
+    }
+
+    public void setPassword(String password) {
+        Password = password;
+    }
 
     @Override
     public boolean equals(Object o) {
