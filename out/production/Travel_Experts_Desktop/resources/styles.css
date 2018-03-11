@@ -11,7 +11,7 @@
     -fx-padding: 0 0.01em 0 0.01em;
 }
 
-#pAgentProfile,#pCustomers,#pPackages,#pTags,#pLogout{
+#pAgentProfile,#pCustomers,#pPackages,#pTags,#pLogout, #spMenu{
     -fx-border-style: solid;
     -fx-border-width: 1px;
     -fx-border-color: black;
