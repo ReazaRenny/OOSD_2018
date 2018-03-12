@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="mainAP" prefHeight="750.0" prefWidth="1450.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Code.mainInterfaceController">
+   <children>
+      <AnchorPane fx:id="spMenu" prefHeight="750.0" prefWidth="195.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox prefHeight="750.0" prefWidth="195.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <AnchorPane prefHeight="187.0" prefWidth="195.0">
+                     <children>
+                        <Text fx:id="txtTravelExperts" fill="WHITE" layoutX="9.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Travel Experts">
+                           <font>
+                              <Font name="Marlett" size="28.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="pAgentProfile" onMouseClicked="#loadAgentProfile" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Text fx:id="txtProfile" fill="WHITE" layoutX="33.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Agent Profile" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="pCustomers" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Text fx:id="txtCustomers" fill="WHITE" layoutX="33.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customers" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="pTags" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Text fx:id="txtTags" fill="WHITE" layoutX="34.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tags" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="pPackages" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Text fx:id="txtPackages" fill="WHITE" layoutX="36.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Packages" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="pLogout" prefHeight="200.0" prefWidth="195.0">
+                     <children>
+                        <Text fx:id="txtLogout" fill="WHITE" layoutX="35.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Logout" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="spContent" layoutX="193.0" prefHeight="750.0" prefWidth="1258.0" />
+   </children>
+</AnchorPane>
