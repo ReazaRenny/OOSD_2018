@@ -1,18 +1,13 @@
 package Code;
 
-import java.awt.*;
-import java.lang.reflect.Array;
 import java.net.URL;
-import java.util.ArrayList;
 import java.util.Optional;
 import java.util.ResourceBundle;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 import Database.AgentDB;
 import TravelExpertsClasses.Agents;
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.*;
@@ -20,14 +15,10 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Dialog;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.text.Text;
-import javafx.util.Pair;
 import javafx.geometry.Insets;
-
-import javax.swing.*;
 
 
 public class AgentProfileController {
@@ -83,6 +74,7 @@ public class AgentProfileController {
     @FXML
     void changePassword(ActionEvent event) throws Exception {
 
+        boolean okClicked = false;
         // Create the custom dialog.
         Dialog dialog = new Dialog<>();
         dialog.setTitle("Change Password");
@@ -92,8 +84,9 @@ public class AgentProfileController {
         //dialog.setGraphic(new ImageView(this.getClass().getResource("login.png").toString()));
 
         // Set the button types.
-        ButtonType loginButtonType = new ButtonType("Confirm", ButtonBar.ButtonData.OK_DONE);
-        dialog.getDialogPane().getButtonTypes().addAll(loginButtonType, ButtonType.CANCEL);
+        ButtonType okButtonType = new ButtonType("OK", ButtonBar.ButtonData.OK_DONE);
+        ButtonType cancelButtonType = new ButtonType("Cancel", ButtonBar.ButtonData.CANCEL_CLOSE);
+        dialog.getDialogPane().getButtonTypes().addAll(okButtonType, cancelButtonType);
 
         // Create the username and password labels and fields.
         GridPane grid = new GridPane();
@@ -151,10 +144,11 @@ public class AgentProfileController {
 
         dialog.getDialogPane().setContent(grid);
 
-        Optional result = dialog.showAndWait();
+        Optional<ButtonType> result = dialog.showAndWait();
         //System.out.println(result);
 
-        if (result.isPresent()){
+
+        if ((result.isPresent() && result.get().getButtonData() == ButtonBar.ButtonData.OK_DONE) ){
 
             if(oldpassword.getText().isEmpty()||newpassword.getText().isEmpty()||confirmpassword.getText().isEmpty()){
                 Alert alert = new Alert(Alert.AlertType.WARNING);
