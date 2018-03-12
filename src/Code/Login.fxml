@@ -23,14 +23,14 @@
          <children>
             <SplitPane fx:id="splitPane" cache="true" dividerPositions="0.3693586698337292" layoutX="-14.0" prefHeight="545.0" prefWidth="858.0">
               <items>
-                <AnchorPane fx:id="apLogin" minHeight="0.0" minWidth="0.0" prefHeight="543.0" prefWidth="408.0" style="-fx-background-color: lightblue;">
+                <AnchorPane fx:id="apLogin" minHeight="0.0" minWidth="0.0" prefHeight="543.0" prefWidth="408.0" style="-fx-background-color: #2e3572 #2e3572;">
                      <children>
-                        <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Travel Experts 2018">
+                        <Text fill="WHITE" layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Travel Experts 2018">
                            <font>
                               <Font size="18.0" />
                            </font>
                         </Text>
-                        <Text layoutX="96.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Agent Login">
+                        <Text fill="WHITE" layoutX="96.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Agent Login">
                            <font>
                               <Font size="24.0" />
                            </font>
@@ -46,7 +46,7 @@
                               <Font size="14.0" />
                            </font>
                         </Text>
-                        <Button fx:id="btnSignIn" layoutX="115.0" layoutY="367.0" mnemonicParsing="false" onAction="#signIn" prefHeight="35.0" prefWidth="92.0" stylesheets="@../resources/styles.css" text="Sign In">
+                        <Button fx:id="btnSignIn" layoutX="115.0" layoutY="367.0" mnemonicParsing="false" onAction="#signIn" prefHeight="35.0" prefWidth="92.0" style="-fx-background-color: #2e3552;" stylesheets="@../resources/styles.css" text="Sign In" textFill="WHITE">
                            <font>
                               <Font size="14.0" />
                            </font>
