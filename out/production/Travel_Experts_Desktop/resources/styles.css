@@ -1,27 +1,38 @@
 
 #apImage{
 
-    -fx-background-image: url("lama.jpeg");
-    -fx-background-repeat: stretch;
+    -fx-background-image: url("travel.jpeg");
+    -fx-background-size: cover;
     -fx-background-position: center center;
 
+}
+
+#spMenu{
+	-fx-background-color:#2e3568;
+}
+
+#pAgentProfile:hover, #pCustomers:hover, #pTags:hover, #pPackages:hover, #pLogout:hover{
+	-fx-background-color: linear-gradient(#2e3540, #2e3568);
+	
+}
+#pAgentProfile:pressed,#pCustomers:pressed,#pTags:pressed,#pPackages:pressed,#pLogout:pressed{
+	-fx-background-color: #2e3568;
 }
 
 .split-pane > .split-pane-divider {
     -fx-padding: 0 0.01em 0 0.01em;
 }
 
-#pAgentProfile,#pCustomers,#pPackages,#pTags,#pLogout, #spMenu{
-    -fx-border-style: solid;
-    -fx-border-width: 1px;
-    -fx-border-color: black;
-}
 
 #btnSignIn{
-    -fx-background-color: DarkRed;
+    -fx-background-color: #2e3540;
     -fx-text-fill: white;
 
 }
-
-
+#btnSignIn:hover{
+	-fx-background-color: #2e3568;
+}
+.button{
+	-fx-background-radius: 16px;
+}
 

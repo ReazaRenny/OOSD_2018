@@ -2,11 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Travel_Experts_Desktop/Code/AgentProfileController.class" afterPath="$PROJECT_DIR$/out/production/Travel_Experts_Desktop/Code/AgentProfileController.class" />
-      <change beforePath="$PROJECT_DIR$/src/Code/AgentProfileController.java" afterPath="$PROJECT_DIR$/src/Code/AgentProfileController.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/Travel_Experts_Desktop/Code/mainInterface.fxml" afterPath="$PROJECT_DIR$/out/production/Travel_Experts_Desktop/Code/mainInterface.fxml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Travel_Experts_Desktop/resources/styles.css" afterPath="$PROJECT_DIR$/out/production/Travel_Experts_Desktop/resources/styles.css" />
+      <change beforePath="$PROJECT_DIR$/src/Code/mainInterface.fxml" afterPath="$PROJECT_DIR$/src/Code/mainInterface.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/resources/styles.css" afterPath="$PROJECT_DIR$/src/resources/styles.css" />
+      <change beforePath="$PROJECT_DIR$/src/src/Code/AgentProfile.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/Code/AgentProfileController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/Code/Code/AgentProfile.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/Code/Code/AgentProfileController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/Code/Code/DBConnect.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/Code/Code/Globals.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/Code/Code/Login.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/Code/Code/LoginController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/Code/Code/Main.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/Code/Code/mainInterface.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/Code/Code/mainInterfaceController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/Code/DBConnect.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/Code/Globals.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/Code/Login.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/Code/LoginController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/Code/Main.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/Code/mainInterface.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/Code/mainInterfaceController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/Database/AgentDB.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/META-INF/persistence.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/TravelExpertsClasses/Affiliations.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/TravelExpertsClasses/Agencies.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/TravelExpertsClasses/Agents.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/TravelExpertsClasses/Bookingdetails.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/TravelExpertsClasses/Bookings.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/TravelExpertsClasses/Classes.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/TravelExpertsClasses/Creditcards.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/TravelExpertsClasses/Customers.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/TravelExpertsClasses/CustomersRewards.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/TravelExpertsClasses/CustomersRewardsPK.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/TravelExpertsClasses/Employees.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/TravelExpertsClasses/Fees.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/TravelExpertsClasses/Packages.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/TravelExpertsClasses/PackagesProductsSuppliers.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/TravelExpertsClasses/PackagesProductsSuppliersPK.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/TravelExpertsClasses/Products.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/TravelExpertsClasses/ProductsSuppliers.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/TravelExpertsClasses/Regions.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/TravelExpertsClasses/Rewards.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/TravelExpertsClasses/Suppliercontacts.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/TravelExpertsClasses/Suppliers.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/TravelExpertsClasses/Triptypes.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/resources/dashboardStyle.css" afterPath="$PROJECT_DIR$/src/resources/dashboardStyle.css" />
+      <change beforePath="$PROJECT_DIR$/src/src/resources/lama.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/resources/styles.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/src/resources/travel.jpeg" afterPath="$PROJECT_DIR$/src/resources/travel.jpeg" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,97 +127,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mainInterfaceController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Code/mainInterfaceController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="88" column="24" lean-forward="false" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AgentProfileController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Code/AgentProfileController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="159" column="38" lean-forward="true" selection-start-line="159" selection-start-column="38" selection-end-line="159" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dataSources.local.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/dataSources.local.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1020">
+              <caret line="66" column="46" lean-forward="false" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Agents.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TravelExpertsClasses/Agents.java">
+      <file leaf-file-name="mainInterface.fxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Code/mainInterface.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
-              <caret line="127" column="33" lean-forward="false" selection-start-line="127" selection-start-column="33" selection-end-line="127" selection-end-column="33" />
-              <folding>
-                <element signature="e#3116#3117#0" expanded="true" />
-                <element signature="e#3164#3165#0" expanded="true" />
-                <element signature="e#3199#3200#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Code/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2397">
-              <caret line="166" column="11" lean-forward="false" selection-start-line="166" selection-start-column="4" selection-end-line="166" selection-end-column="11" />
+            <state relative-caret-position="399">
+              <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Globals.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Code/Globals.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AgentDB.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Database/AgentDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2244">
-              <caret line="141" column="72" lean-forward="false" selection-start-line="141" selection-start-column="72" selection-end-line="141" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1520806338292" expanded="true" signature="582:638" ph="select * fro... agents" />
-                <marker date="1520806338292" expanded="true" signature="1910:1948" ph="select * fro... agents" />
-                <marker date="1520806338292" expanded="true" signature="3043:3234" ph="UPDATE agents... " />
-                <marker date="1520806338292" expanded="true" signature="4464:4512" ph="UPDATE agents... " />
-              </folding>
-            </state>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
           </provider>
         </entry>
       </file>
@@ -234,7 +209,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -259,7 +234,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,14 +245,14 @@
             <path>
               <item name="OOSD_2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="OOSD_2018" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,6 +276,10 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\759513\Desktop\Travel_Experts_Desktop\OOSD_2018\src\Code" />
+      <recent name="C:\Users\759513\Desktop\Travel_Experts_Desktop\OOSD_2018\src\resources" />
+    </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="TravelExpertsTables" />
       <recent name="" />
@@ -460,16 +439,16 @@
       <workItem from="1520867756315" duration="47000" />
       <workItem from="1520867832176" duration="22000" />
       <workItem from="1520868847911" duration="72000" />
-      <workItem from="1520869123096" duration="162000" />
+      <workItem from="1520869123096" duration="2521000" />
+      <workItem from="1520879859704" duration="440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76202000" />
+    <option name="totallyTimeSpent" value="79001000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -484,9 +463,9 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2282092" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21229868" sideWeight="0.22997947" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21229868" sideWeight="0.2422998" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21229868" sideWeight="0.77002054" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21229868" sideWeight="0.7577002" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06975037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -530,15 +509,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Day11Example2/app/src/main/java/org/hpeters/day11example2/MainActivity.java" />
-    <entry file="file://$PROJECT_DIR$/../Day7ComboBoxUpdate/src/application/DBHelper.java" />
-    <entry file="file://$PROJECT_DIR$/../Day7ComboBoxUpdate/src/application/Main.java" />
-    <entry file="file://$PROJECT_DIR$/../Day7ComboBoxUpdate/src/application/SampleController.java" />
-    <entry file="jar://$USER_HOME$/mysql_java/mysql-connector-java-5.1.45/mysql-connector-java-5.1.45-bin.jar!/com/mysql/jdbc/AbandonedConnectionCleanupThread.class" />
-    <entry file="jar://$USER_HOME$/mysql_java/mysql-connector-java-5.1.45/mysql-connector-java-5.1.45-bin.jar!/com/mysql/jdbc/Driver.class" />
-    <entry file="jar://$USER_HOME$/mysql_java/mysql-connector-java-5.1.45/mysql-connector-java-5.1.45-bin.jar!/com/mysql/fabric/jdbc/FabricMySQLDriver.class" />
-    <entry file="jar://$USER_HOME$/mysql_java/mysql-connector-java-5.1.45/mysql-connector-java-5.1.45-bin.jar!/com/mysql/jdbc/StringUtils.class" />
-    <entry file="jar://$USER_HOME$/mysql_java/mysql-connector-java-5.1.45/mysql-connector-java-5.1.45-bin.jar!/com/mysql/jdbc/NonRegisteringDriver.class" />
     <entry file="jar://$USER_HOME$/mysql_java/mysql-connector-java-5.1.45/mysql-connector-java-5.1.45-bin.jar!/com/mysql/jdbc/PreparedStatement.class" />
     <entry file="jar://$USER_HOME$/mysql_java/mysql-connector-java-5.1.45/mysql-connector-java-5.1.45-bin.jar!/com/mysql/jdbc/ConnectionImpl.class" />
     <entry file="file://$PROJECT_DIR$/../../JavaProjects/classExamples/Day13LoadTravelExpertsDB/app/src/main/java/org/hpeters/day13exercise/CustomerDataSource.java">
@@ -580,22 +550,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Code/ContentAgentProfile.java" />
     <entry file="file://$PROJECT_DIR$/src/Code/AgentProfile.java" />
-    <entry file="file://$PROJECT_DIR$/src/Code/mainInterface.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="92" lean-forward="true" selection-start-line="41" selection-start-column="92" selection-end-line="41" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Code/Login.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -671,48 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="130" column="12" lean-forward="false" selection-start-line="130" selection-start-column="12" selection-end-line="150" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Code/Globals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TravelExpertsClasses/Agents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="127" column="33" lean-forward="false" selection-start-line="127" selection-start-column="33" selection-end-line="127" selection-end-column="33" />
-          <folding>
-            <element signature="e#3116#3117#0" expanded="true" />
-            <element signature="e#3164#3165#0" expanded="true" />
-            <element signature="e#3199#3200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Code/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2397">
-          <caret line="166" column="11" lean-forward="false" selection-start-line="166" selection-start-column="4" selection-end-line="166" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Database/AgentDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="141" column="72" lean-forward="false" selection-start-line="141" selection-start-column="72" selection-end-line="141" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1520806338292" expanded="true" signature="582:638" ph="select * fro... agents" />
-            <marker date="1520806338292" expanded="true" signature="1910:1948" ph="select * fro... agents" />
-            <marker date="1520806338292" expanded="true" signature="3043:3234" ph="UPDATE agents... " />
-            <marker date="1520806338292" expanded="true" signature="4464:4512" ph="UPDATE agents... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,10 +720,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Code/mainInterfaceController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="1309">
           <caret line="88" column="24" lean-forward="false" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -818,16 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Code/AgentProfileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="159" column="38" lean-forward="true" selection-start-line="159" selection-start-column="38" selection-end-line="159" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/dataSources.local.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -836,12 +744,146 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Code/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2397">
+          <caret line="166" column="11" lean-forward="false" selection-start-line="166" selection-start-column="4" selection-end-line="166" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Code/AgentProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2397">
+          <caret line="159" column="38" lean-forward="false" selection-start-line="159" selection-start-column="38" selection-end-line="159" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Database/AgentDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="762">
+          <caret line="141" column="72" lean-forward="false" selection-start-line="141" selection-start-column="72" selection-end-line="141" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1520806338292" expanded="true" signature="582:638" ph="select * fro... agents" />
+            <marker date="1520806338292" expanded="true" signature="1910:1948" ph="select * fro... agents" />
+            <marker date="1520806338292" expanded="true" signature="3043:3234" ph="UPDATE agents... " />
+            <marker date="1520806338292" expanded="true" signature="4464:4512" ph="UPDATE agents... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Code/Globals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TravelExpertsClasses/Agents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="127" column="31" lean-forward="false" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="66" column="46" lean-forward="false" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Code/mainInterfaceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Code/Code/mainInterfaceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/resources/dashboardStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/resources/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Code/DBConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Code/AgentProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1751">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Code/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Code/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Code/mainInterface.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Code/mainInterface.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
   </component>
