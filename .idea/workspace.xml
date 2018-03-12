@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/out/production/Travel_Experts_Desktop/Code/AgentProfileController.class" afterPath="$PROJECT_DIR$/out/production/Travel_Experts_Desktop/Code/AgentProfileController.class" />
+=======
+      <change beforePath="$PROJECT_DIR$/out/production/Travel_Experts_Desktop/Code/AgentProfileController.class" afterPath="" />
+>>>>>>> c6fceff81c330fe58de0ac861e918ccbe9287f48
       <change beforePath="$PROJECT_DIR$/src/Code/AgentProfileController.java" afterPath="$PROJECT_DIR$/src/Code/AgentProfileController.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -82,7 +86,11 @@
       <file leaf-file-name="mainInterfaceController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Code/mainInterfaceController.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1309">
+=======
+            <state relative-caret-position="235">
+>>>>>>> c6fceff81c330fe58de0ac861e918ccbe9287f48
               <caret line="88" column="24" lean-forward="false" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -94,7 +102,11 @@
       <file leaf-file-name="AgentProfileController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Code/AgentProfileController.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="170">
+=======
+            <state relative-caret-position="91">
+>>>>>>> c6fceff81c330fe58de0ac861e918ccbe9287f48
               <caret line="146" column="27" lean-forward="false" selection-start-line="146" selection-start-column="27" selection-end-line="146" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -453,13 +465,21 @@
       <workItem from="1520364260192" duration="9199000" />
       <workItem from="1520476361282" duration="20783000" />
       <workItem from="1520540756761" duration="3106000" />
+<<<<<<< HEAD
       <workItem from="1520614248345" duration="41683000" />
       <workItem from="1520866537584" duration="21000" />
+=======
+      <workItem from="1520614248345" duration="41509000" />
+>>>>>>> c6fceff81c330fe58de0ac861e918ccbe9287f48
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="76094000" />
+=======
+    <option name="totallyTimeSpent" value="75899000" />
+>>>>>>> c6fceff81c330fe58de0ac861e918ccbe9287f48
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -682,6 +702,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="130" column="12" lean-forward="false" selection-start-line="130" selection-start-column="12" selection-end-line="150" selection-end-column="35" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> c6fceff81c330fe58de0ac861e918ccbe9287f48
         </state>
       </provider>
     </entry>
@@ -731,6 +755,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-547">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> c6fceff81c330fe58de0ac861e918ccbe9287f48
         </state>
       </provider>
     </entry>
@@ -738,6 +766,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-561">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> c6fceff81c330fe58de0ac861e918ccbe9287f48
         </state>
       </provider>
     </entry>
@@ -745,6 +777,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> c6fceff81c330fe58de0ac861e918ccbe9287f48
         </state>
       </provider>
     </entry>
@@ -752,6 +788,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-139">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> c6fceff81c330fe58de0ac861e918ccbe9287f48
         </state>
       </provider>
     </entry>
@@ -759,6 +799,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-564">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> c6fceff81c330fe58de0ac861e918ccbe9287f48
         </state>
       </provider>
     </entry>
@@ -766,6 +810,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> c6fceff81c330fe58de0ac861e918ccbe9287f48
         </state>
       </provider>
     </entry>
@@ -773,6 +821,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> c6fceff81c330fe58de0ac861e918ccbe9287f48
         </state>
       </provider>
     </entry>
@@ -780,6 +832,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1224">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> c6fceff81c330fe58de0ac861e918ccbe9287f48
         </state>
       </provider>
     </entry>
@@ -787,6 +843,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> c6fceff81c330fe58de0ac861e918ccbe9287f48
         </state>
       </provider>
     </entry>
@@ -794,6 +854,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-207">
           <caret line="62" column="52" lean-forward="true" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> c6fceff81c330fe58de0ac861e918ccbe9287f48
         </state>
       </provider>
     </entry>
@@ -801,6 +865,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-714">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> c6fceff81c330fe58de0ac861e918ccbe9287f48
         </state>
       </provider>
     </entry>
@@ -808,12 +876,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="82" column="20" lean-forward="false" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="62" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> c6fceff81c330fe58de0ac861e918ccbe9287f48
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Code/mainInterfaceController.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1309">
+=======
+        <state relative-caret-position="235">
+>>>>>>> c6fceff81c330fe58de0ac861e918ccbe9287f48
           <caret line="88" column="24" lean-forward="false" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -823,7 +899,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Code/AgentProfileController.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="170">
+=======
+        <state relative-caret-position="91">
+>>>>>>> c6fceff81c330fe58de0ac861e918ccbe9287f48
           <caret line="146" column="27" lean-forward="false" selection-start-line="146" selection-start-column="27" selection-end-line="146" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
