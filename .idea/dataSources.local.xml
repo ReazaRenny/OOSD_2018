@@ -2,12 +2,30 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="TravelExperts@localhost" uuid="05c930e8-becd-42a9-909b-f97d38328f9c">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <introspection-schemas>*:travelexperts</introspection-schemas>
+    </data-source>
+    <data-source name="NewPersistenceUnit/TopLink" uuid="0e565c81-7b58-4f19-abef-90eb34206ed2">
       <database-info product="MySQL" version="5.5.5-10.1.30-MariaDB" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.45 ( Revision: 9131eefa398531c7dc98776e8a3fe839e544c5b2 )">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
-      <secret-storage>master_key</secret-storage>
+      <user-name>Sam</user-name>
+      <introspection-schemas>*:travelexperts</introspection-schemas>
+    </data-source>
+    <data-source name="NewPersistenceUnit/EclipseLink" uuid="24523831-398d-45b5-a469-b2c57fc5c15b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+    </data-source>
+    <data-source name="NewPersistenceUnit/OpenJPA" uuid="046d5edc-b4d6-4bc5-b093-e3eb257015cb">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+    </data-source>
+    <data-source name="NewPersistenceUnit/Hibernate" uuid="4b819e5b-b070-4254-95c8-e906d79e2a57">
+      <database-info product="MySQL" version="5.5.5-10.1.30-MariaDB" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.45 ( Revision: 9131eefa398531c7dc98776e8a3fe839e544c5b2 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <user-name>Sam</user-name>
       <introspection-schemas>*:travelexperts</introspection-schemas>
     </data-source>
