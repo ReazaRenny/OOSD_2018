@@ -1,29 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.text.Font?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="pAnchor" prefHeight="393.0" prefWidth="653.0" stylesheets="@../resources/dashboardStyles.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Code.mainInterfaceController">
+<AnchorPane fx:id="mainAP" prefHeight="750.0" prefWidth="1450.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Code.mainInterfaceController">
    <children>
-      <AnchorPane fx:id="pDashboard" prefHeight="400.0" prefWidth="152.0" style="-fx-background-color: #2e3568;" stylesheets="@../resources/dashboardStyles.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane fx:id="spMenu" prefHeight="750.0" prefWidth="256.0">
          <children>
-            <Button id="btnPackages" fx:id="btnPackages" layoutY="87.0" mnemonicParsing="false" onAction="#openPackages" prefHeight="70.0" prefWidth="155.0" style="-fx-background-color: #2e3572;" stylesheets="@../resources/dashboardStyles.css" text="Packages" textFill="WHITE" />
-            <Button id="btnAgentProfile" fx:id="btnAgentProfile" layoutY="157.0" mnemonicParsing="false" onAction="#openAgentProfile" prefHeight="70.0" prefWidth="155.0" style="-fx-background-color: #2e3572;" stylesheets="@../resources/dashboardStyles.css" text="Agent Profile" textFill="WHITE" />
-            <Button id="btnCustomers" fx:id="btnCustomers" layoutY="227.0" mnemonicParsing="false" onAction="#openCustomers" prefHeight="70.0" prefWidth="155.0" style="-fx-background-color: #2e3572;" stylesheets="@../resources/dashboardStyles.css" text="Customers" textFill="WHITE" />
-            <Button id="btnTags" fx:id="btnTags" layoutY="297.0" mnemonicParsing="false" onAction="#openTags" prefHeight="70.0" prefWidth="155.0" style="-fx-background-color: #2e3572;" stylesheets="@../resources/dashboardStyles.css" text="Tags" textFill="WHITE" />
-            <Button id="btnLogout" fx:id="btnLogout" layoutY="367.0" mnemonicParsing="false" onAction="#logoutOfApp" prefHeight="33.0" prefWidth="155.0" style="-fx-background-color: #2e3592;" stylesheets="@../resources/dashboardStyles.css" text="Logout" textFill="WHITE" />
+            <VBox prefHeight="367.0" prefWidth="256.0">
+               <children>
+                  <AnchorPane fx:id="pAgentProfile" onMouseClicked="#loadAgentProfile" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Text fx:id="txtProfile" layoutX="33.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Agent Profile" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="pCustomers" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Text fx:id="txtCustomers" layoutX="33.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customers" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="pTags" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Text fx:id="txtTags" layoutX="34.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tags" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="pPackages" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Text fx:id="txtPackages" layoutX="36.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Packages" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="pLogout" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Text fx:id="txtLogout" layoutX="35.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Logout" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="pContent" layoutX="155.0" prefHeight="545.0" prefWidth="850.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-         <children>
-            <Label layoutX="33.0" layoutY="31.0" text="Travel Experts" textFill="WHITE">
-               <font>
-                  <Font name="Calibri" size="15.0" />
-               </font>
-            </Label>
-         </children>
-      </AnchorPane>
+      <AnchorPane fx:id="spContent" layoutX="256.0" prefHeight="750.0" prefWidth="1195.0" />
    </children>
 </AnchorPane>

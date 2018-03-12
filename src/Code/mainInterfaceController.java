@@ -1,16 +1,19 @@
 package Code;
 
+import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
-import javafx.event.ActionEvent;
+
+import TravelExpertsClasses.Agents;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.Pane;
+import javafx.scene.text.Text;
 
 public class mainInterfaceController {
-	
-	
 
     @FXML
     private ResourceBundle resources;
@@ -19,68 +22,74 @@ public class mainInterfaceController {
     private URL location;
 
     @FXML
-    private AnchorPane pAnchor;
+    private AnchorPane spMenu;
 
     @FXML
-    private AnchorPane pDashboard;
+    private AnchorPane pAgentProfile;
 
     @FXML
-    private Pane pAgentProfile;
+    private Text txtProfile;
 
     @FXML
-    private Button btnPackages;
+    private AnchorPane pCustomers;
 
     @FXML
-    private Button btnAgentProfile;
+    private Text txtCustomers;
 
     @FXML
-    private Button btnCustomers;
+    private AnchorPane pTags;
 
     @FXML
-    private Button btnTags;
+    private Text txtTags;
 
     @FXML
-    private Button btnLogout;
+    private AnchorPane pPackages;
 
     @FXML
-    private AnchorPane pContent;
+    private Text txtPackages;
 
     @FXML
-    void logoutOfApp(ActionEvent event) {
-
-    }
+    private AnchorPane pLogout;
 
     @FXML
-    void openAgentProfile(ActionEvent event) {
-
-    }
+    private Text txtLogout;
 
     @FXML
-    void openCustomers(ActionEvent event) {
-
-    }
+    private AnchorPane spContent;
 
     @FXML
-    void openPackages(ActionEvent event) {
+    private AnchorPane mainAP;
 
-    }
-
-    @FXML
-    void openTags(ActionEvent event) {
-
-    }
 
     @FXML
     void initialize() {
-        assert pAnchor != null : "fx:id=\"pAnchor\" was not injected: check your FXML file 'mainInterface.fxml'.";
-        assert pDashboard != null : "fx:id=\"pDashboard\" was not injected: check your FXML file 'mainInterface.fxml'.";
+
+        assert spMenu != null : "fx:id=\"spMenu\" was not injected: check your FXML file 'mainInterface.fxml'.";
         assert pAgentProfile != null : "fx:id=\"pAgentProfile\" was not injected: check your FXML file 'mainInterface.fxml'.";
-        assert btnPackages != null : "fx:id=\"btnPackages\" was not injected: check your FXML file 'mainInterface.fxml'.";
-        assert btnAgentProfile != null : "fx:id=\"btnAgentProfile\" was not injected: check your FXML file 'mainInterface.fxml'.";
-        assert btnCustomers != null : "fx:id=\"btnCustomers\" was not injected: check your FXML file 'mainInterface.fxml'.";
-        assert btnTags != null : "fx:id=\"btnTags\" was not injected: check your FXML file 'mainInterface.fxml'.";
-        assert btnLogout != null : "fx:id=\"btnLogout\" was not injected: check your FXML file 'mainInterface.fxml'.";
-        assert pContent != null : "fx:id=\"pContent\" was not injected: check your FXML file 'mainInterface.fxml'.";
+        assert txtProfile != null : "fx:id=\"txtProfile\" was not injected: check your FXML file 'mainInterface.fxml'.";
+        assert pCustomers != null : "fx:id=\"pCustomers\" was not injected: check your FXML file 'mainInterface.fxml'.";
+        assert txtCustomers != null : "fx:id=\"txtCustomers\" was not injected: check your FXML file 'mainInterface.fxml'.";
+        assert pTags != null : "fx:id=\"pTags\" was not injected: check your FXML file 'mainInterface.fxml'.";
+        assert txtTags != null : "fx:id=\"txtTags\" was not injected: check your FXML file 'mainInterface.fxml'.";
+        assert pPackages != null : "fx:id=\"pPackages\" was not injected: check your FXML file 'mainInterface.fxml'.";
+        assert txtPackages != null : "fx:id=\"txtPackages\" was not injected: check your FXML file 'mainInterface.fxml'.";
+        assert pLogout != null : "fx:id=\"pLogout\" was not injected: check your FXML file 'mainInterface.fxml'.";
+        assert txtLogout != null : "fx:id=\"txtLogout\" was not injected: check your FXML file 'mainInterface.fxml'.";
+        assert spContent != null : "fx:id=\"spContent\" was not injected: check your FXML file 'mainInterface.fxml'.";
+
+    }
+
+
+    //remove the current anchor pane and replace it with the agent profile
+    public void loadAgentProfile(javafx.scene.input.MouseEvent mouseEvent) {
+
+        mainAP.getChildren().remove(spContent);
+
+        try {
+            mainAP.getChildren().add(FXMLLoader.load(getClass().getResource("AgentProfile.fxml")));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 }

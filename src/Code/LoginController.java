@@ -3,7 +3,6 @@ package Code;
 
 import Database.AgentDB;
 import TravelExpertsClasses.Agents;
-import javafx.application.Platform;
 import javafx.event.ActionEvent;
 
 import java.awt.*;
@@ -25,7 +24,6 @@ import javafx.stage.Stage;
 import java.security.Key;
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
-
 import java.util.Base64;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -59,6 +57,7 @@ public class LoginController {
 
     public static boolean agentExists = false;
 
+
     @FXML
     void initialize() {
 
@@ -67,7 +66,6 @@ public class LoginController {
         assert txtPassword != null : "fx:id=\"txtPassword\" was not injected: check your FXML file 'Login.fxml'.";
         assert btnSignIn != null : "fx:id=\"btnSignIn\" was not injected: check your FXML file 'Login.fxml'.";
         assert apImage != null : "fx:id=\"apImage\" was not injected: check your FXML file 'Login.fxml'.";
-
 
 
 
@@ -93,33 +91,40 @@ public class LoginController {
 
         try {
 
+            //Encrypt the password and get the agent from the database using the entered username and password
             String Entered_pass = encryptPassword(password);
             System.out.println(Entered_pass);
             AgentDB db = new AgentDB();
             Agents agent = db.getAgent(username,Entered_pass);
 
+            //if an agent with the corresponding information is found in the database load the main dashboard and
+            //get the agent information in that dashboard class
             if(agentExists)
             {
                 System.out.println("success");
                 System.out.println(agent);
                 try{
+
                 FXMLLoader fxmlLoader = new FXMLLoader();
                 fxmlLoader.setLocation(this.getClass().getResource("../Code/mainInterface.fxml"));
                 /*
                  * if "fx:controller" is not set in fxml
                  * fxmlLoader.setController(NewWindowController);
                  */
-                Scene scene = new Scene(fxmlLoader.load(), 850, 545);
-                scene.getStylesheets().addAll(getClass().getResource("../resources/dashboardStyles.css").toExternalForm());
+                Scene scene = new Scene(fxmlLoader.load(), 1300, 750);
+                scene.getStylesheets().addAll(getClass().getResource("../resources/styles.css").toExternalForm());
 
                 Stage stage = new Stage();
                 stage.setTitle("Travel Experts");
                 stage.setScene(scene);
-                //stage.setMaximized(true);
+                stage.setMaximized(true);
                 //stage.setFullScreen(true);
                 stage.show();
-                closeLogin(); // closes login window after successful login
-                
+
+                Globals a = new Globals();
+                a.agentInfo(agent);
+
+
             } catch (IOException e) {
                 Logger logger = Logger.getLogger(getClass().getName());
                 logger.log(Level.SEVERE, "Failed to create new Window.", e);
@@ -131,6 +136,7 @@ public class LoginController {
                 alert.setHeaderText("Invalid Credentials");
                 alert.setContentText("You must enter a valid username and password!");
                 alert.showAndWait();
+                agentExists = false;
                 return;
             }
         } catch (Exception e) {
@@ -144,7 +150,7 @@ public class LoginController {
         private static final byte[] keyValue =
                 new byte[]{'T', 'h', 'e', 'B', 'e', 's', 't', 'S', 'e', 'c', 'r', 'e', 't', 'K', 'e', 'y'};
 
-    private String encryptPassword(String p) throws Exception{
+    public String encryptPassword(String p) throws Exception{
 
         Key key = generateKey();
         Cipher c = Cipher.getInstance(ALGO);
@@ -161,11 +167,4 @@ public class LoginController {
     private static Key generateKey() throws Exception {
         return new SecretKeySpec(keyValue, ALGO);
     }
-    
-    
-    // closes login page after successful login
-    public void closeLogin() {
-        Stage stage1 = (Stage) btnSignIn.getScene().getWindow();
-        stage1.close();
-   }
 }
